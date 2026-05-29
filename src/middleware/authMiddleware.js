@@ -2,7 +2,8 @@ import jwt from "jsonwebtoken";
 
 const publicRoutes = [
 "/auth/login",
-"/auth/register"
+"/auth/register",
+"/health"
 ];
 
 const authMiddleware = (req, res, next) => {
